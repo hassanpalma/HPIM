@@ -1,0 +1,100 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.rj45 {
+    background-image: url(../../../assets/rj45.webp);
+}
+
+.disweb {
+    background-image: url(../../../assets/dw.webp);
+}
+
+.talanquera {
+    background-image: url(../../../assets/talanquera.webp);
+}
+
+.puerta {
+    background-image: url(../../../assets/puerta.webp);
+}
+
+.cctv {
+    background-image: url(../../../assets/cctv.webp);
+}
+
+.redes {
+    background-image: url(../../../assets/tablero.webp);
+}
+
+.rj45p {
+    background-image: url(../../../assets/rj45p.jpg);
+}
+
+.dwp {
+    background-image: url(../../../assets/dwp.jpg);
+}
+
+.cctvp {
+    background-image: url(../../../assets/cctvp.jpg);
+}
+
+.parrafo {
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    text-shadow: 5px 5px 5px whitesmoke;
+    padding: 0px;
+    -webkit-text-stroke: 0.2px white;
+    color: rgb(2, 153, 218);
+}
+
+.parrafo a {
+    text-decoration: none;
+    color: rgb(2, 153, 218);
+    font-size: large;
+}
+
+.parrafo a:hover {
+    text-shadow: 5px 5px 5px black;
+    text-decoration: none;
+    color: black;
+    border-style: double;
+    padding: 5px;
+    background-color: rgb(2, 153, 218);
+}
+
+.texto {
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    text-shadow: 5px 5px 5px whitesmoke;
+    padding: 0px;
+    -webkit-text-stroke: 0.5px white;
+    color: rgb(2, 153, 218);
+}
+
+.texto a {
+    text-decoration: none;
+    color: black;
+}
+
+.texto a:hover {
+    text-shadow: 5px 5px 5px black;
+    text-decoration: none;
+    color: black;
+    border-style: double;
+    padding: 5px;
+    background-color: rgb(2, 153, 218);
+}
+
+.imagen {
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    padding: 0px;
+    color: transparent;
+}

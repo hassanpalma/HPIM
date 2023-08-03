@@ -1,0 +1,93 @@
+<h1 class="text-center mx-5 bg-dark text-light mb-1">Home</h1>
+
+
+<nav class="navbar navbar-expand-sm bg-info m-0 p-0">
+    <div class="container-fluid bg-dark m-0 p-0">
+        <div class="container text-left mx-auto">
+            <div class="row">
+
+                <div *ngIf="ingenieria; else ingepar" class="col">
+                    <p class="rj45 texto p-5 my-1">
+                        <a routerLink="/" (click)="inge()">Ingeníeria de proyectos</a>
+                        <br /><br /> Desarrollo Web<br /> Redes de datos<br /> Redes Electrícas<br /> Seguridad electrónica
+                    </p>
+                </div>
+                <ng-template #ingepar>
+                    <div class="col">
+                        <p class="rj45p parrafo p-5 mt-1">
+                            <a routerLink="/" (click)="inge()">Ingenieria de proyectos</a>
+                            <br /><br /> Somos un equipo interdisciplinario que diseña, ejecuta y pone en marcha proyectos en las areas de desarrollo Web con ultimas tecnologias, redes de datos, electricas, ademas de manejar el campo de seguridad electrónica
+                        </p>
+                    </div>
+                </ng-template>
+
+                <div class="col p-0 my-1">
+                    <p class="talanquera imagen p-5">
+                        ?<br /><br /><br /> ?
+                        <br /> ?
+                        <br /> ?
+                    </p>
+                </div>
+
+                <div *ngIf="mantenimiento; else mantepar" class="col p-0">
+                    <p class="disweb texto p-5 my-1">
+                        <a routerLink="/" (click)="mante()">Mantenimiento integral</a><br /><br /> Programas de mantenimiento<br /> Preventivo
+                        <br /> Predictivo
+                        <br /> Correctivo
+                    </p>
+                </div>
+                <ng-template #mantepar>
+                    <div class="col">
+                        <p class="dwp parrafo p-5 mt-1">
+                            <a routerLink="/" (click)="mante()">Mantenimiento integral</a>
+                            <br /><br /> Un equipo de tecnicos e ingenieros expertos en el area, con años de experiencia a su servicio, concientes de que sus maquinas y equipos son parte vital del desarrollo y sostenimiento de su empresa, tenemos planes
+                            para usted
+                        </p>
+                    </div>
+                </ng-template>
+
+            </div>
+        </div>
+    </div>
+</nav>
+
+<nav class="navbar navbar-expand-sm bg-info m-0 p-0">
+    <div class="container-fluid bg-dark m-0 p-0">
+        <div class="container text-left mx-auto">
+            <div class="row">
+                <div class="col p-0">
+                    <p class="puerta imagen p-5 mb-1">
+                        ?<br /><br /><br /> ?
+                        <br /> ?
+                        <br /> ?
+                    </p>
+                </div>
+
+                <div *ngIf="certificaciones else certipar" class="col p-0">
+                    <p class="cctv texto p-5 mb-1">
+                        <a routerLink="/" class="navbar-expand-sm" (click)="certi()">Certificaciones</a><br /><br /> Optimización de <span class="text-dark">procesos</span><br /> RETIE
+                        <br /> Categoria de redes<br /> Capacitaciones
+                    </p>
+                </div>
+                <ng-template #certipar>
+                    <div class="col">
+                        <p class="cctvp parrafo p-5 mb-0">
+                            <a routerLink="/" (click)="certi()">Certificaciones</a>
+                            <br /><br /> Contamos con equipos de medida y certificación en redes de datos (categorias) y electricas (RETIE), ademas de tecnicos certificados en estandares de calidad y servicios, tambien con conocimientos en gestion para
+                            la mejora de procesos
+                        </p>
+                    </div>
+                </ng-template>
+
+
+                <div class="col p-0">
+                    <p class="redes imagen p-5 mb-1">
+                        ?<br /><br /><br /> ?
+                        <br /> ?
+                        <br /> ?
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>

@@ -1,0 +1,82 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.fondo {
+    background-color: rgb(2, 153, 218);
+}
+
+.centrar {
+    text-align: center;
+    width: 85%;
+}
+
+.parpadea {
+    animation-name: parpadeo;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    -webkit-animation-name: parpadeo;
+    -webkit-animation-duration: 5s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+}
+
+@-moz-keyframes parpadeo {
+    0% {
+        opacity: 1.0;
+    }
+    25% {
+        opacity: 0.5;
+    }
+    50% {
+        opacity: 0.0;
+    }
+    75% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1.0;
+    }
+}
+
+@-webkit-keyframes parpadeo {
+    0% {
+        opacity: 1.0;
+    }
+    25% {
+        opacity: 0.5;
+    }
+    50% {
+        opacity: 0.0;
+    }
+    75% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1.0;
+    }
+}
+
+@keyframes parpadeo {
+    0% {
+        opacity: 1.0;
+    }
+    25% {
+        opacity: 0.5;
+    }
+    50% {
+        opacity: 0.0;
+    }
+    75% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1.0;
+    }
+}
+
+.telefono {
+    font-size: small;
+}
